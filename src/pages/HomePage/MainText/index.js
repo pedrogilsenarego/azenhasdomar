@@ -11,8 +11,10 @@ const MainText = () => {
 				position: "Absolute"
 			}}
 		>
-			<Typography variant={"h3"} style={{ color: "white", marginTop: "30vh" }}>
-				Find yourself <br />
+			<Typography variant={"h2"} style={{ color: "white", marginTop: "35vh" }}>
+				Find yourself
+			</Typography>
+			<Typography variant={"h6"} style={{ color: "white", marginTop: "2vh" }}>
 				visiting the most pittoresque
 				<br /> Portuguese village
 			</Typography>
