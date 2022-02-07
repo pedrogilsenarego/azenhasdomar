@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./default.scss";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+
+//pages
+import HomePage from "./pages/HomePage";
+
+//layouts
+import MainLayout from "./hoc/MainLayout";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const theme = createTheme({
+		typography: {
+			fontFamily: ["Zen Kurenaido", "sans-serif"].join(",")
+		}
+	});
+
+	return (
+		<ThemeProvider theme={theme}>
+			<div className="App">
+				<MainLayout>
+					<HomePage />
+				</MainLayout>
+			</div>
+		</ThemeProvider>
+	);
 }
 
 export default App;
