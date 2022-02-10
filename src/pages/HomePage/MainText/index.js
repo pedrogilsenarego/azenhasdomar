@@ -1,9 +1,21 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Typography } from "@mui/material";
+import "./styles.scss";
 
 const MainText = () => {
+	const [fade, setFade] = useState("fade-out");
+
+	useEffect(() => {
+		const timeout = setTimeout(() => {
+			setFade("fade-in");
+		}, 500);
+
+		return () => clearInterval(timeout);
+	}, [fade]);
+
 	return (
 		<div
+			className={fade}
 			style={{
 				textAlign: "center",
 				height: "100vh",
