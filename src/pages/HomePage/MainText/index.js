@@ -24,10 +24,10 @@ const MainText = () => {
 			}}
 		>
 			<Typography variant={"h2"} style={{ color: "white", marginTop: "35vh" }}>
-				Find yourself
+				Find yourself...
 			</Typography>
 			<Typography variant={"h6"} style={{ color: "white", marginTop: "2vh" }}>
-				visiting the most pittoresque
+				...visiting the most pittoresque
 				<br /> Portuguese village
 			</Typography>
 		</div>

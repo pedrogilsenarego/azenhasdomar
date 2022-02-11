@@ -22,12 +22,11 @@ const Component0 = () => {
 		<div style={{ position: "absolute", marginTop: "110vh", width: "100vw" }}>
 			<Box
 				style={{
-					backgroundColor: "#00000066",
+					backgroundColor: "white",
 
 					width: "96vw",
 					padding: "20px",
-					marginLeft: "2vw",
-					borderRadius: "8px"
+					marginLeft: "2vw"
 				}}
 			>
 				<Grid container>

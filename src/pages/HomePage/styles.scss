@@ -1,0 +1,13 @@
+section {
+	height: 100vh;
+	scroll-snap-align: start;
+	background-color: black;
+	position: absolute;
+}
+
+.container {
+	height: 100vh;
+	overflow-y: scroll;
+	position: absolute;
+	scroll-snap-type: y mandatory;
+}
