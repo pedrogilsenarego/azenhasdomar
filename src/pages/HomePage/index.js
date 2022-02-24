@@ -6,9 +6,9 @@ import WavesIcon from "./WavesIcon";
 const HomePage = () => {
 	return (
 		<div>
+			<WavesIcon />
 			<Main />
 			<Second />
-			<WavesIcon />
 		</div>
 	);
 };

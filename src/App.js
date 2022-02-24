@@ -8,11 +8,7 @@ import HomePage from "./pages/HomePage";
 import MainLayout from "./hoc/MainLayout";
 
 function App() {
-	const theme = createTheme({
-		typography: {
-			fontFamily: ["Zen Kurenaido", "sans-serif"].join(",")
-		}
-	});
+	const theme = createTheme({});
 
 	return (
 		<ThemeProvider theme={theme}>

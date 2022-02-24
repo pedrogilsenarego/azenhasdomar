@@ -23,10 +23,24 @@ const MainText = () => {
 				position: "Absolute"
 			}}
 		>
-			<Typography variant={"h2"} style={{ color: "white", marginTop: "35vh" }}>
+			<Typography
+				variant={"h2"}
+				style={{
+					color: "white",
+					marginTop: "35vh",
+					fontFamily: "Zen Kurenaido, sans-serif"
+				}}
+			>
 				Find yourself...
 			</Typography>
-			<Typography variant={"h6"} style={{ color: "white", marginTop: "2vh" }}>
+			<Typography
+				variant={"h6"}
+				style={{
+					color: "white",
+					marginTop: "2vh",
+					fontFamily: "Zen Kurenaido, sans-serif"
+				}}
+			>
 				...visiting the most pittoresque
 				<br /> Portuguese village
 			</Typography>

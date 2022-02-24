@@ -1,10 +1,11 @@
 import React from "react";
-import ondas from "./ondas.svg";
+import { TiWaves } from "react-icons/ti";
+import "./styles.scss";
 
 const WavesIcon = () => {
 	return (
-		<div>
-			<img src={ondas} alt="" />
+		<div className="container">
+			<TiWaves size={"7em"} color="#163437" />
 		</div>
 	);
 };

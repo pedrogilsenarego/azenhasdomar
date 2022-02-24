@@ -1,5 +1,5 @@
 import React from "react";
-import { Typography, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 
 const Header = () => {
 	return (
@@ -12,19 +12,7 @@ const Header = () => {
 				position: "Absolute"
 			}}
 		>
-			<Grid container>
-				<Grid item xs={4.5}></Grid>
-				<Grid item xs={1}>
-					<Typography style={{ fontSize: "18px" }}>Eat</Typography>
-				</Grid>
-				<Grid item xs={1}>
-					<Typography style={{ fontSize: "18px" }}>Sleep</Typography>
-				</Grid>
-				<Grid item xs={1}>
-					<Typography style={{ fontSize: "18px" }}>Visit</Typography>
-				</Grid>
-				<Grid item xs={4.5}></Grid>
-			</Grid>
+			<Grid container></Grid>
 		</div>
 	);
 };
